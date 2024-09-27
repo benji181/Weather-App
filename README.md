@@ -21,6 +21,11 @@ A fully responsive weather application that fetches real-time weather data and a
 - **jQuery**: Simplified DOM manipulation and AJAX requests.
 - **Git/GitHub**: Version control and project hosting.
 
+Credits
+Developed by Olabisi boluwatife benjamin . 
+Inspired by the need for easy-to-use and accessible weather forecasting tools.
+
+Follow me on LinkedIn and GitHub for more updates!
 ## How to Use
 1. Clone the repository:
    ```bash
