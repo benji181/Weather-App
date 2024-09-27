@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/cloudy.png" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <!-- Full-screen Video Background -->
+    <video autoplay class="video-bg" loop muted>
+        <source src="Video/weatherVideo.mp4" type="video/mp4"  />
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Add this button somewhere in your HTML, e.g., in the header or weather info section -->
+<button id="theme-toggle" class="theme-btn">Switch to Dark Mode</button>
+
+    <!-- Weather App Content -->
+    <div class="weather-content text-center">
+        <h1>Weather Application </h1>
+        <!-- Weather App Description -->
+<p class="app-description">
+    Welcome to the Weather App! This application allows you to check the current weather conditions and get a 7-day forecast for any location around the world. You can also automatically fetch weather based on your current location and receive alerts for severe weather conditions like storms and extreme temperatures. Customize the theme to suit your preference by switching between light and dark mode. Stay updated and prepared, no matter where you are!
+</p>
+
+        <form id="weather-form">
+            <div class="form-group">
+                <input type="text" id="location" class="form-control" placeholder="Enter City" aria-label="City Name">
+            </div>
+            <button type="submit" id="search" class="btn btn-primary sub"  aria-label="Search Weather">Search</button>
+        </form>
+        <div id="weather-info" class="mt-4"></div>
+        
+        <!-- 7-Day Forecast -->
+        <div class="forecast-container mt-4">
+            <!-- Example of forecast-day structure -->
+          
+            <!-- Repeat for the next days -->
+        </div>
+    </div>
+
+
+
+<!-- Footer Section with Icons -->
+<footer class="footer">
+    <p>Developed by Benjamin</p>
+    <a href="https://github.com/benji181"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/bolu-olabisi-benjamin/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <p>&copy; 2024 Weather App | All rights reserved</p>
+</footer>
+
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
